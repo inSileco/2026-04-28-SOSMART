@@ -1,0 +1,282 @@
+/* styles.css */
+.title-slide {
+  text-align: center;
+}
+
+.reveal .slides section.title-slide h1 {
+  font-size: 2em;
+}
+
+
+
+.title-slide .logos {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.title-slide .logos img {
+  margin: 20px;
+  width: 100px;
+  /* Adjust as needed */
+  height: auto;
+}
+
+.reveal .slide-background-content {
+  background-color: white;
+}
+
+
+.footer {
+  text-align: center !important;
+  font-size: 22px !important;
+}
+
+/* Hide logo on title slide */
+#title-slide .slide-logo {
+  display: none;
+}
+
+#title-slide h1.title {
+  font-size: 1.5em;
+}
+
+#title-slide p.date {
+  font-size: 0.7em;
+}
+
+.slides h2 {
+  font-size: 1.25em;
+}
+
+#title-slide .quarto-title-author-name,
+#title-slide .quarto-title-author-name em {
+  color: #37ABC8;
+  font-weight: 700;
+}
+
+#title-slide::after {
+  content: "Southern Ontario Stream Monitoring and Research Team (SOSMART)";
+  display: block;
+  margin-top: 3em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 0.65em;
+  color: #4d636a;
+}
+
+/* Make logo clickable */
+.slide-logo {
+  cursor: pointer;
+  height: 140px !important;
+  max-height: none !important;
+}
+
+
+
+
+/* size helpers*/
+.fz50 {
+  font-size: 50% !important;
+}
+
+.fz75 {
+  font-size: 75% !important;
+}
+
+.fz90 {
+  font-size: 90% !important;
+}
+
+.fz110 {
+  font-size: 110% !important;
+}
+
+.fz125 {
+  font-size: 125% !important;
+}
+
+.fz150 {
+  font-size: 150% !important;
+}
+
+.fz200 {
+  font-size: 200% !important;
+}
+
+.reveal h2 {
+  margin-bottom: 0.5em;
+}
+
+.reveal p,
+.reveal li {
+  line-height: 1.35;
+}
+
+.panel-card,
+.compare-card,
+.step-card,
+.scenario-card,
+.closing-slide {
+  background: #ffffff;
+  border: 1px solid rgba(56, 61, 61, 0.12);
+  border-top: 6px solid #37abc8;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(56, 61, 61, 0.08);
+  padding: 0.9em 1em;
+  margin-bottom: 0.9em;
+}
+
+.panel-card h3,
+.compare-card h3,
+.step-card h3,
+.scenario-card h3 {
+  color: #383d3d;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 0.35em;
+}
+
+.image-card {
+  padding-bottom: 0.6em;
+}
+
+.image-card p:last-child {
+  margin-bottom: 0;
+}
+
+.placeholder-box {
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1.2em;
+  border: 2px dashed rgba(55, 171, 200, 0.55);
+  border-radius: 12px;
+  background: linear-gradient(180deg, rgba(55, 171, 200, 0.06), rgba(55, 171, 200, 0.12));
+  color: #383d3d;
+}
+
+.short-placeholder {
+  min-height: 110px;
+}
+
+.card-grid,
+.step-grid,
+.scenario-flow {
+  display: grid;
+  gap: 0.9em;
+}
+
+.card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.compare-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1em;
+  align-items: stretch;
+}
+
+.accent-card {
+  background: linear-gradient(180deg, rgba(55, 171, 200, 0.1), rgba(255, 255, 255, 1));
+}
+
+.takeaway {
+  margin-top: 1em;
+  font-size: 0.95em;
+  text-align: center;
+}
+
+.step-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.step-card h3 {
+  color: #37abc8;
+  font-size: 1.4em;
+}
+
+.scenario-flow {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.closing-slide {
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1.4em 1.6em;
+}
+
+
+.reveal .slide.transition-slide h2 {
+  font-size: 1.7em;
+  margin-bottom: 0.35em;
+}
+
+.reveal .slide.transition-slide h2::after {
+  content: "";
+  display: block;
+  width: 66%;
+  max-width: 12em;
+  height: 4px;
+  margin-top: 0.35em;
+  background: #37abc8;
+}
+
+.reveal .slide.transition-slide h3 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #355c67;
+  margin-top: 0.2em;
+  margin-bottom: 0.4em;
+}
+
+.reveal .slide.transition-slide p {
+  font-size: 0.85em;
+  color: #4d636a;
+}
+
+.reveal .slide.full-image-slide {
+  padding: 0 !important;
+}
+
+.reveal .slide.full-image-slide h2 {
+  display: none;
+}
+
+.team-card {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.team-photo-link {
+  display: inline-block;
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.team-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00b5b5;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto 0.75rem;
+}
+
+.fixed-height {
+  height: 250px;
+  overflow-y: auto;
+  /* optional: scroll if content overflows */
+}

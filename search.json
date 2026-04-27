@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "index.html#let-us-start-at-the-end",
+    "href": "index.html#let-us-start-at-the-end",
+    "title": "From assessment to capacity",
+    "section": "Let us start at the end",
+    "text": "Let us start at the end\nWhat might environmental assessment outputs look like?"
+  },
+  {
+    "objectID": "index.html#useful-output",
+    "href": "index.html#useful-output",
+    "title": "From assessment to capacity",
+    "section": "NCEA",
+    "text": "NCEA"
+  },
+  {
+    "objectID": "index.html#what-questions-are-answered",
+    "href": "index.html#what-questions-are-answered",
+    "title": "From assessment to capacity",
+    "section": "What questions are answered?",
+    "text": "What questions are answered?\nThe current state of the region\nRisks to valued components\nPathways of effects\nManagement & mitigation priorities"
+  },
+  {
+    "objectID": "index.html#then-what",
+    "href": "index.html#then-what",
+    "title": "From assessment to capacity",
+    "section": "Then what?",
+    "text": "Then what?\nSingle set of answers\nAssessment quickly becomes outdated\nAccumulated knowledge is scattered"
+  },
+  {
+    "objectID": "index.html#what-if",
+    "href": "index.html#what-if",
+    "title": "From assessment to capacity",
+    "section": "What if?",
+    "text": "What if?\nSingle set of answers\nCan be updated and reused\nValue grows as knowledge accumulates"
+  },
+  {
+    "objectID": "index.html#how-do-we-operationalize",
+    "href": "index.html#how-do-we-operationalize",
+    "title": "From assessment to capacity",
+    "section": "How do we operationalize?",
+    "text": "How do we operationalize?\n\nKnowledge management"
+  },
+  {
+    "objectID": "index.html#how-do-we-operationalize-1",
+    "href": "index.html#how-do-we-operationalize-1",
+    "title": "From assessment to capacity",
+    "section": "How do we operationalize?",
+    "text": "How do we operationalize?\nAnalytical capabilities"
+  },
+  {
+    "objectID": "index.html#how-do-we-operationalize-2",
+    "href": "index.html#how-do-we-operationalize-2",
+    "title": "From assessment to capacity",
+    "section": "How do we operationalize?",
+    "text": "How do we operationalize?\nDecision-support tools"
+  },
+  {
+    "objectID": "index.html#how-do-we-operationalize-3",
+    "href": "index.html#how-do-we-operationalize-3",
+    "title": "From assessment to capacity",
+    "section": "How do we operationalize?",
+    "text": "How do we operationalize?\nAutomated workflows"
+  },
+  {
+    "objectID": "index.html#knowledge-management-1",
+    "href": "index.html#knowledge-management-1",
+    "title": "From assessment to capacity",
+    "section": "Knowledge Management",
+    "text": "Knowledge Management\n\n\n\n\n\nOrganize the knowledge\n\n\nClear terms, clear categories, clear sources.\n\n\n\n\n\n\n\nDocument it well\n\n\nPeople can understand what it means and where it came from.\n\n\n\n\n\n\n\n\nConnect the information\n\n\nUpdates in one place can support many uses.\n\n\n\n\n\n\n\n\nBuild tools on top\n\n\nMaps, summaries, and decision support tools become easier to maintain."
+  },
+  {
+    "objectID": "index.html#ersl_sheets",
+    "href": "index.html#ersl_sheets",
+    "title": "From assessment to capacity",
+    "section": "ERSL Google sheet",
+    "text": "ERSL Google sheet"
+  },
+  {
+    "objectID": "index.html#ersl_hub",
+    "href": "index.html#ersl_hub",
+    "title": "From assessment to capacity",
+    "section": "ERSL Hub",
+    "text": "ERSL Hub"
+  },
+  {
+    "objectID": "index.html#analytical-capabilities-1",
+    "href": "index.html#analytical-capabilities-1",
+    "title": "From assessment to capacity",
+    "section": "Analytical capabilities",
+    "text": "Analytical capabilities\n\n\n\n\n\nTurn structured knowledge into analysis\n\n\nFrom evidence tables and relationships to indicators, scores, pathways, and maps.\n\n\n\n\n\n\n\nRun methods consistently\n\n\nUse the same logic across projects, regions, and update cycles.\n\n\n\n\n\n\n\n\nTest scenarios\n\n\nCompare assumptions, stressors, mitigation options, and future conditions.\n\n\n\n\n\n\n\n\nReproduce results\n\n\nWhen data change, analyses can be rerun instead of rebuilt."
+  },
+  {
+    "objectID": "index.html#pbr",
+    "href": "index.html#pbr",
+    "title": "From assessment to capacity",
+    "section": "PBR",
+    "text": "PBR"
+  },
+  {
+    "objectID": "index.html#decision-support-tools-1",
+    "href": "index.html#decision-support-tools-1",
+    "title": "From assessment to capacity",
+    "section": "Decision-support tools",
+    "text": "Decision-support tools\n\n\n\n\n\nMake results explorable\n\n\nLet users navigate components, stressors, pathways, locations, and evidence.\n\n\n\n\n\n\n\nServe different roles\n\n\nManagers, analysts, regulators, and partners do not need the same interface.\n\n\n\n\n\n\n\n\nSupport defensible decisions\n\n\nShow where conclusions come from and what assumptions they depend on.\n\n\n\n\n\n\n\n\nReduce friction\n\n\nLess time searching for context, more time interpreting implications."
+  },
+  {
+    "objectID": "index.html#cea_explorer",
+    "href": "index.html#cea_explorer",
+    "title": "From assessment to capacity",
+    "section": "CEA Explorer",
+    "text": "CEA Explorer"
+  },
+  {
+    "objectID": "index.html#automated-workflows-1",
+    "href": "index.html#automated-workflows-1",
+    "title": "From assessment to capacity",
+    "section": "Automated workflows",
+    "text": "Automated workflows\n\n\n\n\n\nMove updates through the system\n\n\nNew data in, checks run, analyses rerun, outputs refreshed.\n\n\n\n\n\n\n\nImprove timeliness\n\n\nRoutine tasks happen faster and more consistently.\n\n\n\n\n\n\n\n\nKeep people in the loop\n\n\nAutomation supports review; it does not replace judgment.\n\n\n\n\n\n\n\n\nUse AI where it helps\n\n\nDraft summaries, structure evidence, assist querying, never replace sourcing and review."
+  },
+  {
+    "objectID": "index.html#nceadfo",
+    "href": "index.html#nceadfo",
+    "title": "From assessment to capacity",
+    "section": "nceadfo",
+    "text": "nceadfo"
+  },
+  {
+    "objectID": "index.html#why-does-this-matter",
+    "href": "index.html#why-does-this-matter",
+    "title": "From assessment to capacity",
+    "section": "Why does this matter?",
+    "text": "Why does this matter?\nShared memory\nUpdatable context\nReuse across projects\nOperational capacity"
+  },
+  {
+    "objectID": "index.html#benefits-to-operational-capacity",
+    "href": "index.html#benefits-to-operational-capacity",
+    "title": "From assessment to capacity",
+    "section": "Benefits to operational capacity",
+    "text": "Benefits to operational capacity\n\n\n\n\nReduce time and cost\n\n\nSome tasks that take months can start to move in days.\n\n\n\n\n\n\n\nReduce key person risk\n\n\nCritical knowledge is less likely to stay locked in one person or one team.\n\n\n\n\n\n\n\n\nIncrease confidence\n\n\nMethods, sources, and assumptions are easier to review and defend.\n\n\n\n\n\n\n\n\nDecrease overall risk\n\n\nFewer delays, fewer gaps, and fewer fragile handoffs across the process."
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "From assessment to capacity",
+    "section": "",
+    "text": "inSileco\nMission\n\nOperationalize environmental management by building the capacity, tools, and systems that environmental professionals and organizations need to work confidently and efficiently.\n\n\n\nCollaborations\n\nAcademia (CEM, UofG, UL, ArcticNet, UQAR, UQAT)\nFederal (ECCC, AEIC, DFO, CWS)\nProvincial (MNR, Nanutsiavut Gvt, MFFP)\nFirst Nations (W8banaki, Wendake)"
+  },
+  {
+    "objectID": "index.html#section-1",
+    "href": "index.html#section-1",
+    "title": "From assessment to capacity",
+    "section": "",
+    "text": "inSileco\n\n\n\n\nKnowledge Management\n\n\n\n\n\nAnalytical capabilities\n\n\n\n\n\n\nDecision-support tools\n\n\n\n\n\nAutomated workflows"
+  },
+  {
+    "objectID": "index.html#section-2",
+    "href": "index.html#section-2",
+    "title": "From assessment to capacity",
+    "section": "",
+    "text": "inSileco\n\n\n\n\n\n\nBlog    \n\n\n\nInsights & practcal guidance\nFree content on environmental data, modeling, and decision-making\n\n\n\n\n\n\n\n\n\nAcademy\n\n\n\nTraining & capacity building\nCourses, workshops, and coaching to help teams develop internal capacity\n\n\n\n\n\n\n\n\n\n\nSystems   \n\n\n\nCustom tools & data systems\nDecision-ready pipelines, models, and applications tailored to your needs\n\n\n\n\n\n\n\n\n\nIntelligence\n\n\n\nEnvironmental assessments\nComplete biodiversity, cumulative eﬀects, risk assessments"
+  }
+]
