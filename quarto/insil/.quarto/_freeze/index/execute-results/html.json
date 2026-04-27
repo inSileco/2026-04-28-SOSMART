@@ -1,0 +1,21 @@
+{
+  "hash": "d78597be0962c4381534716e45d53983",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Demo template quarto\"\nauthor: \"Team inSileco\"\ndate: \"2026-03-04\"\nfrom: markdown+emoji\nformat:\n  revealjs:\n    theme: [default, custom.scss]\n    slide-number: true\n    # chalkboard: true\n    transition: fade\n    highlight-style: arrow\n    css: styles.css\n    incremental: false\n    toc: false\n    toc-depth: 2\n    code-block-bg: \"#f8f8f8\" # Custom background color\n    code-block-border-left: \"#37abc8\" # Custom left border color\n    logo: img/main.svg\n---\n\n```{=html}\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  var logo = document.querySelector('.slide-logo');\n  if (logo) {\n    var link = document.createElement('a');\n    link.href = 'https://www.insileco.io';\n    link.target = '_blank';\n    logo.parentNode.insertBefore(link, logo);\n    link.appendChild(logo);\n  }\n});\n</script>\n```\n\n## Slide Title\n\n- this is it \n\n:::footer\n[FRDR](https://www.frdr-dfdr.ca/)\n&nbsp; ***·*** &nbsp;\n[FAIRsharing.org](https://fairsharing.org/)\n&nbsp; ***·*** &nbsp;\n[Dataverse](https://dataverse.org/)\n:::\n\n## Slide Title {.smaller}\n\n## Slide with columns\n\n:::: {.columns}\n\n::: {.column width=\"40%\"}\nLeft column\n:::\n\n::: {.column width=\"60%\"}\nRight column\n:::\n\n::::\n\n## Slide with speaker notes\n\nSlide content\n\n::: {.notes}\nSpeaker notes go here.\n:::\n\n\n## Code R \n\n\n::: {.cell}\n\n```{.r .cell-code}\nhead(CO2)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n  Plant   Type  Treatment conc uptake\n1   Qn1 Quebec nonchilled   95   16.0\n2   Qn1 Quebec nonchilled  175   30.4\n3   Qn1 Quebec nonchilled  250   34.8\n4   Qn1 Quebec nonchilled  350   37.2\n5   Qn1 Quebec nonchilled  500   35.3\n6   Qn1 Quebec nonchilled  675   39.2\n```\n\n\n:::\n\n```{.r .cell-code}\n2 + 2\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 4\n```\n\n\n:::\n\n```{.r .cell-code}\n# comment \ncool <- function(a = 1) {\n\treturn(2 + 1)\n}\n```\n:::\n\n\n\n\n## References\n\nSee [the doc](https://quarto.org/docs/presentations/revealjs/)\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
