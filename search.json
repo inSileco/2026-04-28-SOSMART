@@ -91,11 +91,18 @@
     "text": "Analytical capabilities\n\n\n\n\n\nTurn structured knowledge into analysis\n\n\nFrom evidence tables and relationships to indicators, scores, pathways, and maps.\n\n\n\n\n\n\n\nRun methods consistently\n\n\nUse the same logic across projects, regions, and update cycles.\n\n\n\n\n\n\n\n\nTest scenarios\n\n\nCompare assumptions, stressors, mitigation options, and future conditions.\n\n\n\n\n\n\n\n\nReproduce results\n\n\nWhen data change, analyses can be rerun instead of rebuilt."
   },
   {
-    "objectID": "index.html#pbr",
-    "href": "index.html#pbr",
+    "objectID": "index.html#savm",
+    "href": "index.html#savm",
     "title": "From assessment to capacity",
-    "section": "PBR",
-    "text": "PBR"
+    "section": "SAVM",
+    "text": "SAVM"
+  },
+  {
+    "objectID": "index.html#savmapp",
+    "href": "index.html#savmapp",
+    "title": "From assessment to capacity",
+    "section": "SAVMapp",
+    "text": "SAVMapp"
   },
   {
     "objectID": "index.html#decision-support-tools-1",
